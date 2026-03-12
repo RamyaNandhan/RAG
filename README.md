@@ -1,4 +1,4 @@
-\# Retrieval-Augmented Generation (RAG) NLP System
+# Retrieval-Augmented Generation (RAG) NLP System
 
 
 
@@ -14,7 +14,7 @@ This project demonstrates how to combine \*\*document retrieval, vector embeddin
 
 
 
-\# Project Overview
+# Project Overview
 
 
 
