@@ -46,7 +46,7 @@ This system:
 
 
 
-\# System Architecture
+# System Architecture
 
 
 
@@ -66,7 +66,7 @@ Data → Chunking → Embedding → Vector Database → Retrieval → LLM → Re
 
 
 
-\# Key Features
+# Key Features
 
 
 
@@ -92,7 +92,7 @@ Data → Chunking → Embedding → Vector Database → Retrieval → LLM → Re
 
 
 
-\# Tech Stack
+# Tech Stack
 
 
 
@@ -122,7 +122,7 @@ Data → Chunking → Embedding → Vector Database → Retrieval → LLM → Re
 
 
 
-\# Repository Structure
+# Repository Structure
 
 
 
@@ -332,7 +332,7 @@ responses grounded in external knowledge sources.
 
 
 
-\# Running the API
+# Running the API
 
 
 
@@ -364,7 +364,7 @@ http://localhost:8000/ask?query=What is RAG?
 
 
 
-\# Configuration
+# Configuration
 
 
 
@@ -404,7 +404,7 @@ temperature: 0.2
 
 
 
-\# Experiments
+# Experiments
 
 
 
@@ -462,7 +462,7 @@ Observations:
 
 
 
-\# Evaluation
+# Evaluation
 
 
 
@@ -498,7 +498,7 @@ Metrics explored:
 
 
 
-\* Add RAG evaluation frameworks (RAGAS / TruLens)
+* Add RAG evaluation frameworks (RAGAS / TruLens)
 
 \* Hybrid search (BM25 + vector search)
 
@@ -516,7 +516,7 @@ Metrics explored:
 
 
 
-\# Use Cases
+# Use Cases
 
 
 
@@ -534,7 +534,7 @@ Metrics explored:
 
 
 
-\# Author
+# Author
 
 
 
