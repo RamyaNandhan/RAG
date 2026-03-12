@@ -1,0 +1,68 @@
+NLP Retrieval-Augmented Generation (RAG) System
+Overview
+
+This project implements a Retrieval-Augmented Generation (RAG) pipeline that enables natural language querying over document collections using a local LLM.
+
+The system processes documents, stores embeddings in a vector database, retrieves relevant information for user queries, and generates context-aware responses.
+
+Features
+
+Document ingestion from PDFs
+
+Text chunking for efficient retrieval
+
+SentenceTransformer embeddings
+
+Chroma vector database
+
+Local LLM inference using Llama.cpp
+
+Fully offline RAG pipeline
+
+Architecture
+Documents → Chunking → Embeddings → Vector DB
+                        ↑
+User Query → Embedding → Retrieval → LLM → Answer
+Installation
+git clone https://github.com/yourusername/rag-nlp-project.git
+
+cd rag-nlp-project
+
+pip install -r requirements.txt
+Running the Project
+python run_pipeline.py
+Example Workflow
+
+Load PDF documents
+
+Chunk text into segments
+
+Generate embeddings
+
+Store vectors in ChromaDB
+
+Retrieve relevant chunks
+
+Generate LLM responses
+
+Tech Stack
+
+LangChain
+
+ChromaDB
+
+SentenceTransformers
+
+Llama.cpp
+
+Python
+
+Future Improvements
+
+Web UI using Gradio or Streamlit
+
+Multi-document retrieval
+
+RAG evaluation metrics
+
+distributed vector storage
