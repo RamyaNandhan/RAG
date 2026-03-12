@@ -1,0 +1,31 @@
+langchain
+langchain-community
+chromadb
+sentence-transformers
+llama-cpp-python
+pymupdf
+tiktoken
+huggingface-hub
+pandas
+numpy
+scikit-learn
+tqdm
+python-dotenv
+
+
+Place the downloaded GGUF model file under /models folder.
+
+Example:
+
+models/
+ └── llama_model.gguf
+
+Example models you could use:
+
+Llama 2 GGUF
+
+Mistral 7B GGUF
+
+TinyLlama GGUF
+
+Downloaded from HuggingFace.

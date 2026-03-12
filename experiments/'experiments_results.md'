@@ -1,0 +1,70 @@
+# RAG Experiment Results
+
+## Experiment Setup
+
+| Parameter | Value |
+|----------|-------|
+Embedding Model | all-MiniLM-L6-v2
+Chunk Size | 800
+Chunk Overlap | 100
+Vector DB | Chroma
+LLM | Llama.cpp
+
+---
+
+## Experiments
+
+### Experiment 1
+
+Chunk Size: 500
+
+Observations:
+- Higher recall
+- Context fragmented
+
+---
+
+### Experiment 2
+
+Chunk Size: 800
+
+Observations:
+- Best balance
+- Accurate answers
+
+---
+
+### Experiment 3
+
+Chunk Size: 1200
+
+Observations:
+- Context preserved
+- Slightly slower retrieval
+
+---
+
+## Results Summary
+
+| Metric | Result |
+|------|------|
+Retrieval Accuracy | ~85%
+Response Latency | ~2 seconds
+Answer Quality | Good
+
+---
+
+## Key Learnings
+
+- Chunk size significantly affects retrieval quality
+- SentenceTransformers embeddings work well for semantic search
+- ChromaDB provides fast local vector search
+
+---
+
+## Future Improvements
+
+- Add RAG evaluation metrics
+- Implement reranking
+- Add hybrid search (BM25 + vector search)
+- Deploy using FastAPI
